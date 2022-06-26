@@ -1,0 +1,20 @@
+#cardHolder{
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 35%;
+    
+}
+
+.colorCard{
+    margin: 20px;
+    width: 100px;
+    height: 150px;
+    border-radius: 12px;
+    border: solid black;
+}
+
+.colorCard:hover{
+    cursor: pointer;
+    border-color: bisque;
+}
